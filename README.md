@@ -1,7 +1,7 @@
 # Revisiting-Scalarization-in-MTL
 This repository reproduces the results presented in the Neurips 2023 Poster [Revisiting Scalarization in Multi-Task Learning: A Theoretical Perspective](https://arxiv.org/abs/2308.13985.)
 
-The code performs linear scalarization and MGDA/MGDA_UB on 3 tasks from the SARCOS dataset, as described in the paper.
+The code performs linear scalarization and MGDA/MGDA-UB on 3 tasks from the SARCOS dataset, as described in the paper.
 
 Our code is divided into two sections: Scalarization and MultiObjectiveOptimization
 
@@ -23,9 +23,9 @@ Use the following command in this directory to run MGDA
 python multi_task/train_multi_task.py --param_file=./sarcos.json
 ```
 
-To change between mgda and mgda-ub change the use_approximation in sarcos.json:
-"use_approximation": true => mgda-ub
-"use_approximation": false => mgda
+To change between mgda and mgda-ub change the use_approximation in sarcos.json: 
+* "use_approximation": true => mgda-ub 
+* "use_approximation": false => mgda
 
 ## Visualizing the Results:
 
