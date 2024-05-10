@@ -1,0 +1,12 @@
+{
+    "optimizer": "Adam", 
+    "batch_size": 256,
+    "lr": 0.0005,
+    "dataset": "sarcos",
+    "tasks": ["0", "1", "2"],
+    "normalization_type": "l2",
+    "algorithm": "mgda",
+    "use_approximation": false,
+    "scales": {"0":0.33, "1":0.33, "2":0.33},
+    "parallel": false
+}
