@@ -1,2 +1,5 @@
 *.txt
 *.ipynb_checkpoints
+*.pkl
+./MultiObjectiveOptimization/runs
+./MultiObjectiveOptimization/saved_models
